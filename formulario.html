@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {background-color: rgb(118, 137, 189);}
+        h1   {color: blue;}
+        p    {color: red;}
+        ul {list-style-type: none;}
+
+        </style>
+</head>
+<body align="center" >
+    <main>
+        <form>
+            <fieldset>
+            <legend>Dados para login</legend>
+                
+                    Name: <input type="text" id="name" />
+                    Email: <input type="email" id="email" />
+            </fieldset>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                
+                    Nome: <input type="text" id="name" />
+                    Sobrenome: <input type="text" id="name"/>
+                    
+                        <legend>Sexo:</legend>
+                    
+                        <input type="radio" id="Masculino" name="monster">
+                        <label for="Masculino">Masculino</label>
+                    
+                        <input type="radio" id="Feminino" name="monster">
+                        <label for="Feminino">Feminino</label><br>
+            
+                    Telefone: <input type="tel" id="telefone"/>
+                    Data de Nascimento: <input type="date" id="data"/>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <ul>
+                    <li>Cep: <input type="number" id="cep" /></li>
+                    <li>Rua: <input type="text" id="Rua" size="24"/> Número: <input type="text" id="numero" size="4" maxlength="4"/></li>
+                    <li>Bairro: <input type="text" id="bairro" size="22" maxlength="22"/> Cidade: <input type="text" id="cidade" size="5" maxlength="5"/></li>
+                    <li>Estado: <input type="text" id="estado" size="9" maxlength="9"/></li>
+                </ul>
+                </fieldset>
+                <br>
+            <button>Cadastrar </button>
+            <button>Cancela </button>
+        </form>
+    </main>
+</body>
+</html>
